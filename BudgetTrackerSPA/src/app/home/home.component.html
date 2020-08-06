@@ -1,0 +1,13 @@
+<table class="table table-bordered table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <app-user-table [user]='user'></app-user-table>
+      </tr>
+    </tbody>
+  </table>
