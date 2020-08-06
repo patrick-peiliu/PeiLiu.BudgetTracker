@@ -1,9 +1,6 @@
 ﻿<Properties StartupConfiguration="{13A9BDC6-8D4F-4DA6-99E1-1A7E799393AF}|Default">
   <MonoDevelop.Ide.ItemProperties.PeiLiu.BudgetTracker.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PeiLiu.BudgetTracker.API/appsettings.json">
-    <Files>
-      <File FileName="PeiLiu.BudgetTracker.API/appsettings.json" Line="3" Column="78" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
