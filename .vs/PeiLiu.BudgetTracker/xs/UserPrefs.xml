@@ -4,7 +4,11 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PeiLiu.BudgetTracker" selected="True" />
+          <Node name="PeiLiu.BudgetTracker" expanded="True">
+            <Node name="PeiLiu.BudgetTracker.API" expanded="True">
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
