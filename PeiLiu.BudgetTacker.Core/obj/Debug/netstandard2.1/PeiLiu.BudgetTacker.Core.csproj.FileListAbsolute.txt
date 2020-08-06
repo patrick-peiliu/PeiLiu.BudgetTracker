@@ -1,0 +1,9 @@
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/bin/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.deps.json
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/bin/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.dll
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/bin/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.pdb
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.csprojAssemblyReference.cache
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.AssemblyInfoInputs.cache
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.AssemblyInfo.cs
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.csproj.CoreCompileInputs.cache
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.dll
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.pdb

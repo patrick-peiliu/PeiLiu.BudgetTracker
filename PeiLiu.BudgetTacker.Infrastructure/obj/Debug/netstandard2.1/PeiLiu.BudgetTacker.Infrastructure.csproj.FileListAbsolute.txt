@@ -1,0 +1,12 @@
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/bin/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.deps.json
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/bin/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.dll
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/bin/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.pdb
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/bin/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.dll
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/bin/Debug/netstandard2.1/PeiLiu.BudgetTacker.Core.pdb
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.csprojAssemblyReference.cache
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.AssemblyInfoInputs.cache
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.AssemblyInfo.cs
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.csproj.CopyComplete
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.dll
+/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/obj/Debug/netstandard2.1/PeiLiu.BudgetTacker.Infrastructure.pdb

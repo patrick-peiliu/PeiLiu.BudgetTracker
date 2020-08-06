@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/PeiLiu.BudgetTacker.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/PeiLiu.BudgetTacker.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/PeiLiu.BudgetTacker.Core.csproj",
+        "projectName": "PeiLiu.BudgetTacker.Core",
+        "projectPath": "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/PeiLiu.BudgetTacker.Core.csproj",
+        "packagesPath": "/Users/patrick/.nuget/packages/",
+        "outputPath": "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/patrick/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/PeiLiu.BudgetTacker.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/PeiLiu.BudgetTacker.Infrastructure.csproj",
+        "projectName": "PeiLiu.BudgetTacker.Infrastructure",
+        "projectPath": "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/PeiLiu.BudgetTacker.Infrastructure.csproj",
+        "packagesPath": "/Users/patrick/.nuget/packages/",
+        "outputPath": "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/patrick/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/PeiLiu.BudgetTacker.Core.csproj": {
+                "projectPath": "/Users/patrick/Projects/PeiLiu.BudgetTracker/PeiLiu.BudgetTacker.Core/PeiLiu.BudgetTacker.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
