@@ -47,5 +47,14 @@ namespace PeiLiu.BudgetTracker.API.Controllers
             return Ok();
         }
 
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<IActionResult> Details(int id)
+        {
+            var user = await _userService.GetUserById(id);
+
+            return Ok(user);
+        }
+
     }
 }

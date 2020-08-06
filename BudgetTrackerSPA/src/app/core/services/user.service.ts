@@ -20,6 +20,5 @@ export class UserService {
 
   getUserDetails(id: number) : Observable<Users>{
     return this.apiService.getOne(`${'user'}`, id);
-
   }
 }

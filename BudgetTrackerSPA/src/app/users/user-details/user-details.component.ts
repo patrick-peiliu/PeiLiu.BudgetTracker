@@ -19,18 +19,16 @@ export class UserDetailsComponent implements OnInit {
     this.route.paramMap.subscribe(
       params => {
         this.id = +params.get('id');
-        // this.getMovieDetails();
+        this.getUserDetails();
       }
     );
   }
 
-  // private getMovieDetails() {
-  //   this.userService.getMovieDetails(this.id)
-  //     .subscribe(m => {
-  //       this.movie = m;
-        
-
-  //     });
-  // }
+  private getUserDetails() {
+    this.userService.getUserDetails(this.id)
+      .subscribe(m => {
+        this.user = m;
+      });
+  }
 
 }

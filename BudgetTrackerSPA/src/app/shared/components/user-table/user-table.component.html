@@ -1,8 +1,13 @@
-<th scope="row"></th>
-<td><a [routerLink]="">{{user.fullName}}</a></td>
+<td><a [routerLink]="[ 'user/', user.id ]">{{user.fullName}}</a></td>
 <td>{{user.email}}</td>
 <td>
     <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
         Add 
+    </button>
+    <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
+        Update 
+    </button>
+    <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
+        Delete 
     </button>
 </td>

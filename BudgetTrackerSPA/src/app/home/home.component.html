@@ -1,13 +1,12 @@
-<table class="table table-bordered table-dark">
-    <thead>
-      <tr>
-        <th scope="col">Name</th>
-        <th scope="col">Email</th>
-      </tr>
-    </thead>
+<div class="col-md-3 offset-2">
+  <table class="table">
     <tbody>
+      <tr>
+        <th>Budget Tracker</th>
+      </tr>
       <tr *ngFor="let user of users">
         <app-user-table [user]='user'></app-user-table>
       </tr>
     </tbody>
   </table>
+</div>

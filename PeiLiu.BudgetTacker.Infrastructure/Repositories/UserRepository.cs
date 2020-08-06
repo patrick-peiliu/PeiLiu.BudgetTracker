@@ -14,6 +14,18 @@ namespace PeiLiu.BudgetTacker.Infrastructure.Repositories
         {
         }
 
+        public override async Task<Users> GetByIdAsync(int id)
+        {
+            var user = await _dbContext.Users
+                                        .Include(u => u.Expenditures)
+                                        .Include(u => u.Incomes)
+                                        .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (user == null) return null;
+
+            return user;
+        }
+
         public async Task<Users> GetUserByName(string name)
         {
             return await _dbContext.Users.FirstOrDefaultAsync(u => u.FullName == name);

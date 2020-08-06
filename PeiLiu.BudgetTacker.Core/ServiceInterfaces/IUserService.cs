@@ -13,6 +13,6 @@ namespace PeiLiu.BudgetTacker.Core.ServiceInterfaces
         Task<UserResponseModel> AddUser(UserRequestModel requestModel);
         Task DeleteUser(UserRequestModel requestModel);
 
-
+        Task<Users> GetUserById(int id);
     }
 }

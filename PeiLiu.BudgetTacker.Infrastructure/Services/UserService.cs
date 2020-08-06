@@ -58,5 +58,10 @@ namespace PeiLiu.BudgetTacker.Infrastructure.Services
         {
             return await _userRepository.ListAllAsync();
         }
+
+        public async Task<Users> GetUserById(int id)
+        {
+            return await _userRepository.GetByIdAsync(id);
+        }
     }
 }
