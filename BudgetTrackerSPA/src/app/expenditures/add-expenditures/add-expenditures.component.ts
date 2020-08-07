@@ -1,3 +1,5 @@
+import { ExpenditureService } from './../../core/services/expenditure.service';
+import { Expenditures } from './../../shared/models/expenditures';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, FormControl, Validators } from '@angular/forms';
 
@@ -8,10 +10,11 @@ import { FormBuilder, FormGroup, FormArray, FormControl, Validators } from '@ang
   styleUrls: ['./add-expenditures.component.css']
 })
 export class AddExpendituresComponent implements OnInit {
+  expenditure = {} as Expenditures;
 
   createExpendituresForm: FormGroup;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private expenditureService : ExpenditureService) {
     this.createExpendituresForm = new FormGroup({
       userId: new FormControl(''),
       amount: new FormControl(''),
@@ -35,6 +38,19 @@ export class AddExpendituresComponent implements OnInit {
 
   onSubmit() {
     console.log(this.createExpendituresForm);
+    this.expenditure = this.createExpendituresForm.value;
+
+    this.expenditureService.addExpenditure(this.expenditure).subscribe(
+      res => {
+        console.log(res);
+      }
+    )
+
+    // this.expenditureService.addExpenditure(this.expenditure).subscribe(
+    //   res => {
+    //     console.log(res);
+    //   }
+    // )
   }
 
 }

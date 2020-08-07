@@ -1,5 +1,7 @@
+import { IncomeService } from './../../core/services/income.service';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, FormControl, Validators } from '@angular/forms';
+import { Incomes } from 'src/app/shared/models/incomes';
 
 @Component({
   selector: 'app-add-income',
@@ -7,10 +9,11 @@ import { FormBuilder, FormGroup, FormArray, FormControl, Validators } from '@ang
   styleUrls: ['./add-income.component.css']
 })
 export class AddIncomeComponent implements OnInit {
+  income = {} as Incomes;
 
   createIncomeForm: FormGroup;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private incomeService:IncomeService) {
     this.createIncomeForm = new FormGroup({
       userId: new FormControl(''),
       amount: new FormControl(''),
@@ -34,6 +37,13 @@ export class AddIncomeComponent implements OnInit {
 
   onSubmit() {
     console.log(this.createIncomeForm);
+    this.income = this.createIncomeForm.value;
+
+    this.incomeService.addIncome(this.income).subscribe(
+      res => {
+        console.log(res);
+      }
+    )
   }
 
 }

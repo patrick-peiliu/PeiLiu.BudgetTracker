@@ -14,7 +14,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 export class AddUserComponent implements OnInit {
   user = {} as Users;
-  users: Users[];
 
   createUserForm: FormGroup;
 
@@ -42,12 +41,13 @@ export class AddUserComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log(this.createUserForm);
-    
-    this.userService.addUser(this.user).
-    subscribe(resp => {
-      this.user = resp;
-    });
+    this.user = this.createUserForm.value;
+
+    this.userService.addUser(this.user).subscribe(
+      res =>{
+        console.log(res);
+      }
+    )
 
   }
 }
