@@ -5,17 +5,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PeiLiu.BudgetTracker" expanded="True">
-            <Node name="PeiLiu.BudgetTacker.Core" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="RepositoryInterfaces" expanded="True" />
-              <Node name="ServiceInterfaces" expanded="True" />
-            </Node>
-            <Node name="PeiLiu.BudgetTacker.Infrastructure" expanded="True">
-              <Node name="Repositories" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
             <Node name="PeiLiu.BudgetTracker.API" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>

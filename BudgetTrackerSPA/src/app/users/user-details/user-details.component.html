@@ -4,10 +4,19 @@
         <tbody>
           <tr *ngFor="let income of user?.incomes">
             <td> {{income.amount}} </td>
-            <td> {{income.description}} </td>       
+            <td> {{income.description}} </td> 
+            <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
+              Update 
+            </button>
+            <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
+              Delete 
+            </button>      
           </tr>
         </tbody>
       </table>
+      <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
+        Add an Income
+      </button>
 </div>
 <div class="col-4 offset-1">
     <h4>Expenditures</h4>
@@ -15,8 +24,17 @@
         <tbody>
           <tr *ngFor="let expend of user?.expenditures">
             <td> {{expend.amount}} </td>
-            <td> {{expend.description}} </td>       
+            <td> {{expend.description}} </td> 
+            <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
+              Update 
+            </button>
+            <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
+              Delete 
+            </button>      
           </tr>
         </tbody>
       </table>
+      <button type="button" class="btn btn-light btn-lg btn-block btn-sm"> 
+        Add an Expenditure
+      </button>
 </div>
