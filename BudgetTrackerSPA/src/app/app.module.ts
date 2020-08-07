@@ -24,6 +24,8 @@ import { UserListComponent } from './users/user-list/user-list.component';
 import { UserTableComponent } from './shared/components/user-table/user-table.component';
 import { AddUserComponent } from './users/add-user/add-user.component';
 import { UserDetailsComponent } from './users/user-details/user-details.component';
+import { AddIncomeComponent } from './incomes/add-income/add-income.component';
+import { AddExpendituresComponent } from './expenditures/add-expenditures/add-expenditures.component';
 
 
 // Decorators -- like attributes in C#
@@ -38,6 +40,8 @@ import { UserDetailsComponent } from './users/user-details/user-details.componen
     UserTableComponent,
     AddUserComponent,
     UserDetailsComponent,
+    AddIncomeComponent,
+    AddExpendituresComponent,
   ],
   
   // third party
